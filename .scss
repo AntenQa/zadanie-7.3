@@ -1,0 +1,25 @@
+$turkoise: #45FFD4;
+$white: #fff;
+.container {
+  font-family: 'Arimo', sans-serif;
+  width: 800px;
+  padding-top: 50px;
+  text-align: center;
+  background-image: linear-gradient(141deg, #BA49FF 0%, $turkoise 75%);
+}
+h1 {
+  padding: 20px;
+  margin: 0 200px 0 200px;
+  border: 5px solid $white;
+  text-transform: uppercase;
+}
+h1, h2 {
+  color: $white;
+}
+h1:hover {
+  border: 5px solid $turkoise;
+  color: $turkoise;
+}
+h6 {
+  padding-bottom: 50px;
+}
